@@ -1,30 +1,49 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-# User-specific files
+*.iws
+*.launch
+.externalToolBuilders/
+.DS_Store
+.idea/
+.nb-gradle/
+.project
+.settings/
+atlassian-ide-plugin.xml
+nbactions.xml
+nbbuild/
+nbdist/
+nbproject/private/
+desktop.ini/
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.pidb
+*.resources
+*.sln.docstates
 *.suo
 *.user
 *.userosscache
-*.sln.docstates
-*.config
-
-
-# Visual Studio 2015/2017 cache/options directory
+*.userprefs
+*.usertasks
 .vs/
-MiddlewareLogs/
+.vscode/*
+test-results/
+obj/
+bin/
+packages/
 
-# Build results
+
+### Devskiller entries
+###
+### Please do not add anything below this line, your changes will be overwritten
+###
+__MACOSX/
 [Dd]ebug/
+[Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
 x64/
-x86/
+build/
+bld/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
-packages/
-publish/
-
-
-
+*.nupkg
+*.trx
